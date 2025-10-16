@@ -3,31 +3,31 @@ document.addEventListener('DOMContentLoaded', () => {
     // Di sini Anda bisa menambah, mengubah, atau menghapus pertanyaan kuis
     const quizData = [
         {
-            image: '/images/Angklung.jpg',
+            image: 'Angklung.jpg',
             options: ['Sasando', 'Angklung', 'Gamelan', 'Tifa'],
             answer: 'Angklung',
             info: 'Angklung adalah alat musik dari Jawa Barat yang terbuat dari bambu.'
         },
         {
-            image: '/images/rendang.jpg',
+            image: 'rendang.jpg',
             options: ['Gudeg', 'Sate', 'Rendang', 'Papeda'],
             answer: 'Rendang',
             info: 'Rendang adalah masakan daging dari Minangkabau, Sumatera Barat.'
         },
         {
-            image: '/images/Sasando.png',
+            image: 'Sasando.png',
             options: ['Kecapi', 'Kolintang', 'Gong', 'Sasando'],
             answer: 'Sasando',
             info: 'Sasando adalah alat musik dawai yang berasal dari Pulau Rote, NTT.'
         },
         {
-            image: '/images/Saman.jpg',
+            image: 'Saman.jpg',
             options: ['Tari Piring', 'Tari Kecak', 'Tari Saman', 'Tari Jaipong'],
             answer: 'Tari Saman',
             info: 'Tari Saman adalah tarian Suku Gayo dari Aceh.'
         },
         {
-            image: '/images/baju_bodo.jpg',
+            image: 'baju_bodo.jpg',
             options: ['Ulos', 'Kebaya', 'Beskap', 'Baju Bodo'],
             answer: 'Baju Bodo',
             info: 'Baju Bodo adalah pakaian adat Suku Bugis dan Makassar dari Sulawesi Selatan.'
@@ -118,4 +118,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Memulai kuis saat halaman dimuat
     startQuiz();
+
 });
