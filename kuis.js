@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Di sini Anda bisa menambah, mengubah, atau menghapus pertanyaan kuis
     const quizData = [
         {
-            image: 'Angklung.jpg',
+            image: 'https://github.com/rifkifali/bhinnek-tunggal-ika.github.io/blob/f01fb29208eab221a954aac2417491033752e903/Angklung.jpg',
             options: ['Sasando', 'Angklung', 'Gamelan', 'Tifa'],
             answer: 'Angklung',
             info: 'Angklung adalah alat musik dari Jawa Barat yang terbuat dari bambu.'
@@ -120,3 +120,4 @@ document.addEventListener('DOMContentLoaded', () => {
     startQuiz();
 
 });
+
