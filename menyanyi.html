@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panggung Gita Bahana - Menyanyi</title>
+    <link rel="stylesheet" href="menyanyi.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Panggung Gita Bahana</h1>
+            <p>Rekam dirimu menyanyikan lagu nasional!</p>
+        </header>
+
+        <div class="main-content">
+            <div class="lyrics-container">
+                <h3>Satu Nusa Satu Bangsa</h3>
+                <p>
+                    Satu nusa<br>
+                    Satu bangsa<br>
+                    Satu bahasa kita<br><br>
+                    Tanah air<br>
+                    Pasti jaya<br>
+                    Untuk Selama-lamanya<br><br>
+                    Indonesia pusaka<br>
+                    Indonesia tercinta<br>
+                    Nusa bangsa<br>
+                    Dan Bahasa<br>
+                    Kita bela bersama
+                </p>
+            </div>
+
+            <div class="video-container">
+                <video id="user-video" autoplay muted class="video-user"></video>
+                <div id="recording-status" class="status"></div>
+            </div>
+        </div>
+
+        <div id="controls" class="controls">
+            <button id="start-camera-btn">1. Buka Kamera</button>
+            <button id="record-btn" disabled>2. Mulai Rekam</button>
+            <button id="stop-btn" disabled>3. Berhenti</button>
+        </div>
+        
+        <div id="download-area" class="download-area"></div>
+        
+        <a href="index.html" class="back-link">Kembali ke Halaman Utama</a>
+    </div>
+    
+    <script src="menyanyi.js"></script>
+</body>
+</html>

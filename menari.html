@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiraga Virtual - Menari</title>
+    <link rel="stylesheet" href="menari.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Wiraga Virtual</h1>
+            <p>Ikuti gerakannya dan rekam aksimu!</p>
+        </header>
+
+        <div class="dance-area">
+            <div class="video-wrapper">
+                <p class="video-label">Video Contoh</p>
+                <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls muted class="video-contoh"></video>
+            </div>
+            <div class="video-wrapper">
+                <p class="video-label">Kamera Anda</p>
+                <video id="user-video" autoplay muted class="video-user"></video>
+            </div>
+        </div>
+        
+        <div id="recording-status" class="status"></div>
+
+        <div id="controls" class="controls">
+            <button id="start-camera-btn">1. Buka Kamera</button>
+            <button id="record-btn" disabled>2. Mulai Rekam</button>
+            <button id="stop-btn" disabled>3. Berhenti</button>
+        </div>
+
+        <div id="download-area" class="download-area"></div>
+
+        <a href="index.html" class="back-link">Kembali ke Halaman Utama</a>
+    </div>
+
+    <script src="menari.js"></script>
+</body>
+</html>

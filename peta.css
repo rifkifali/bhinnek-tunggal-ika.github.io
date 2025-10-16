@@ -1,0 +1,14 @@
+/* Gaya dasar */
+body { font-family: sans-serif; background: #eef1f5; text-align: center; }
+.map-container { max-width: 1200px; margin: auto; padding: 20px; }
+
+/* Layout Peta dan Info Box */
+.map-layout { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+#map-svg-container { flex: 3; min-width: 300px; }
+#info-box { flex: 2; min-width: 250px; background: white; padding: 25px; border-radius: 10px; text-align: left; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+#info-box h2 { margin-top: 0; color: #c0392b; }
+#info-box img { max-width: 100%; border-radius: 5px; margin-top: 15px; }
+
+/* Gaya Peta SVG */
+.province { fill: #bdc3c7; stroke: #fff; stroke-width: 1; transition: fill 0.3s; }
+.province:hover { fill: #941212; cursor: pointer; }
