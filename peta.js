@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Nanggroe Aceh Darussalam',
             capital: 'Banda Aceh',
             info: 'Dikenal dengan julukan "Serambi Mekkah" karena budaya Islam yang kental. Tari Saman dari suku Gayo adalah salah satu warisan budayanya yang paling terkenal di dunia.',
-            image: 'Saman.jpg'
+            image: 'https://github.com/rifkifali/bhinnek-tunggal-ika.github.io/blob/207b427fd61eba95e6320f876b291d7f31bf3785/Saman.jpg'
         },
         'ID-SU': {
             name: 'Sumatera Utara',
@@ -316,3 +316,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
